@@ -1,7 +1,7 @@
 # sql-select-fundamentals
 
 # ¿Por qué es mala práctica usar SELECT * en producción?
-En casos reales de producción no se recomienda dado que se utiliza una gran cantidad de recursos de forma innesesaria, consume tiempo, memoria y dinero.
+En casos reales de producción no se recomienda dado que se utiliza una gran cantidad de recursos de forma innecesaria, consume tiempo, memoria y dinero.
 
 select * 
 from sales
