@@ -7,7 +7,7 @@
 
 --Consulta 1: Exploración general de la tabla sales
 --En este caso de practica tiene sentido usar * dado que son solo 10 filas y unas pocas columnas.
---En casos reales de producción no se recomienda dado que se utiliza una gran cantidad de recursos de forma innesesaria.
+--En casos reales de producción no se recomienda dado que se utiliza una gran cantidad de recursos de forma innecesaria.
 select * 
 from sales
 
@@ -18,5 +18,5 @@ from sales
 
 --Consulta 3: Selección con alias en español para stakeholders
 --Uso de Alias
-select order_date as fecha_pedido, product_name as nombre_producto , quantity as cantidad_unidades 
+select order_date as fecha_pedido, product_name as nombre_producto, quantity as cantidad_unidades 
 from sales
